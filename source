@@ -1,0 +1,186 @@
+--Instances
+
+local DEVRANHACKGUI = Instance.new("ScreenGui")
+local Topbar = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local BeeSwarmSimulator = Instance.new("TextButton")
+local AdoptMe = Instance.new("TextButton")
+local BigPaintball = Instance.new("TextButton")
+local PetSimulatorX = Instance.new("TextButton")
+local Minimizebutton = Instance.new("TextButton")
+
+--Properties
+
+DEVRANHACKGUI.Name = "DEVRAN HACK GUI"
+DEVRANHACKGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DEVRANHACKGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+DEVRANHACKGUI.ResetOnSpawn = false
+
+Topbar.Name = "Topbar"
+Topbar.Parent = DEVRANHACKGUI
+Topbar.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
+Topbar.Position = UDim2.new(0.276349753, 0, 0.253814161, 0)
+Topbar.Size = UDim2.new(0.323707312, 0, 0.0359796286, 0)
+Topbar.Font = Enum.Font.SourceSans
+Topbar.Text = "DEVRAN HACK GUI"
+Topbar.TextColor3 = Color3.fromRGB(0, 0, 0)
+Topbar.TextScaled = true
+Topbar.TextSize = 14.000
+Topbar.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Topbar.TextStrokeTransparency = 0.000
+Topbar.TextWrapped = true
+Topbar.TextXAlignment = Enum.TextXAlignment.Left
+Topbar.Active = true
+Topbar.Draggable = true
+
+Frame.Parent = Topbar
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Frame.Position = UDim2.new(0, 0, 0.963713765, 0)
+Frame.Size = UDim2.new(1.00000024, 0, 9.75278282, 0)
+
+TextButton.Name = "??????"
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BackgroundTransparency = 0.300
+TextButton.Position = UDim2.new(0.56459111, 0, 0.562034905, 0)
+TextButton.Size = UDim2.new(0.397956878, 0, 0.259623557, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "??????"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextStrokeTransparency = 0.000
+TextButton.TextWrapped = true
+
+TextButton_2.Name = "??????"
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BackgroundTransparency = 0.300
+TextButton_2.Position = UDim2.new(0.0671452433, 0, 0.751250923, 0)
+TextButton_2.Size = UDim2.new(0.397956878, 0, 0.213377774, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "??????"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextStrokeTransparency = 0.000
+TextButton_2.TextWrapped = true
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Frame
+Arsenal.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Arsenal.Position = UDim2.new(0.523137391, 0, 0.0460128523, 0)
+Arsenal.Size = UDim2.new(0.397956878, 0, 0.179493964, 0)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextStrokeTransparency = 0.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+end)
+
+BeeSwarmSimulator.Name = "BeeSwarmSimulator"
+BeeSwarmSimulator.Parent = Frame
+BeeSwarmSimulator.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+BeeSwarmSimulator.Position = UDim2.new(0.523137391, 0, 0.314955175, 0)
+BeeSwarmSimulator.Size = UDim2.new(0.397956878, 0, 0.201445162, 0)
+BeeSwarmSimulator.Font = Enum.Font.SourceSans
+BeeSwarmSimulator.Text = "Bee Swarm Simulator"
+BeeSwarmSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarmSimulator.TextScaled = true
+BeeSwarmSimulator.TextSize = 14.000
+BeeSwarmSimulator.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BeeSwarmSimulator.TextStrokeTransparency = 0.000
+BeeSwarmSimulator.TextWrapped = true
+BeeSwarmSimulator.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Histy"))()
+end)
+
+AdoptMe.Name = "AdoptMe"
+AdoptMe.Parent = Frame
+AdoptMe.BackgroundColor3 = Color3.fromRGB(166, 166, 0)
+AdoptMe.Position = UDim2.new(0.0645358562, 0, 0.483026713, 0)
+AdoptMe.Size = UDim2.new(0.397956878, 0, 0.201445162, 0)
+AdoptMe.Font = Enum.Font.SourceSans
+AdoptMe.Text = "Adopt Me"
+AdoptMe.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe.TextScaled = true
+AdoptMe.TextSize = 14.000
+AdoptMe.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe.TextStrokeTransparency = 0.000
+AdoptMe.TextWrapped = true
+AdoptMe.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/adoptmegui1'),true))()
+end)
+
+BigPaintball.Name = "BigPaintball"
+BigPaintball.Parent = Frame
+BigPaintball.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+BigPaintball.Position = UDim2.new(0.03121862, 0, 0.249111623, 0)
+BigPaintball.Size = UDim2.new(0.397956878, 0, 0.135786891, 0)
+BigPaintball.Font = Enum.Font.SourceSans
+BigPaintball.Text = "Big Paintball"
+BigPaintball.TextColor3 = Color3.fromRGB(0, 0, 0)
+BigPaintball.TextScaled = true
+BigPaintball.TextSize = 14.000
+BigPaintball.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BigPaintball.TextStrokeTransparency = 0.000
+BigPaintball.TextWrapped = true
+BigPaintball.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+PetSimulatorX.Name = "PetSimulatorX"
+PetSimulatorX.Parent = Frame
+PetSimulatorX.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+PetSimulatorX.Position = UDim2.new(0.03121862, 0, 0.0496113934, 0)
+PetSimulatorX.Size = UDim2.new(0.397956878, 0, 0.128300264, 0)
+PetSimulatorX.Font = Enum.Font.SourceSans
+PetSimulatorX.Text = "Pet Simulator X"
+PetSimulatorX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetSimulatorX.TextScaled = true
+PetSimulatorX.TextSize = 14.000
+PetSimulatorX.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PetSimulatorX.TextStrokeTransparency = 0.000
+PetSimulatorX.TextWrapped = true
+PetSimulatorX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/Nightfarm/main/Nightfarm.lua", true))()
+end)
+
+Minimizebutton.Name = "Minimizebutton"
+Minimizebutton.Parent = Topbar
+Minimizebutton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Minimizebutton.Position = UDim2.new(0.803000748, 0, 0, 0)
+Minimizebutton.Size = UDim2.new(0.19547005, 0, 0.963715971, 0)
+Minimizebutton.Font = Enum.Font.SourceSans
+Minimizebutton.Text = "Minimize"
+Minimizebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minimizebutton.TextScaled = true
+Minimizebutton.TextSize = 14.000
+Minimizebutton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Minimizebutton.TextStrokeTransparency = 0.000
+Minimizebutton.TextWrapped = true
+
+--Scripts
+
+local function ESPBD_fake_script() -- Minimizebutton.LocalScript 
+	local script = Instance.new('LocalScript', Minimizebutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Frame.Visible == true then
+			script.Parent.Parent.Frame.Visible = false
+		else
+			script.Parent.Parent.Frame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(ESPBD_fake_script)()
